@@ -15,9 +15,9 @@ const CATEGORY: { match: RegExp; icon: IconKey; sub: string }[] = [
 ];
 const categoryFor = (title = '') => CATEGORY.find((c) => c.match.test(title)) ?? { icon: 'shield' as IconKey, sub: '' };
 
-const Chevron = ({ dir }: { dir: 'left' | 'right' }) => (
+const Chevron = () => (
   <svg viewBox="0 0 24 24" width={15} height={15} fill="none" stroke="currentColor" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-    <path d={dir === 'left' ? 'M15 5l-7 7 7 7' : 'M9 5l7 7-7 7'} />
+    <path d="M9 5l7 7-7 7" />
   </svg>
 );
 
@@ -103,7 +103,7 @@ export default function EventRulesView({ page }: { page: Page }) {
                     <span className={css.catTitle}>{s.subtitle}</span>
                     {c.sub && <span className={css.catSub}>{c.sub}</span>}
                   </span>
-                  <Chevron dir="right" />
+                  <Chevron />
                 </button>
               );
             })}
@@ -138,31 +138,6 @@ export default function EventRulesView({ page }: { page: Page }) {
               )}
             </div>
           </section>
-
-          {total > 1 && (
-            <nav className={css.pager} aria-label="Rule pages">
-              <button type="button" className={css.pbtn} onClick={() => go(idx - 1)} disabled={idx === 0}>
-                <Chevron dir="left" /> Previous
-              </button>
-              <div className={css.nums}>
-                {data.sections.map((_, i) => (
-                  <button
-                    key={i}
-                    type="button"
-                    className={css.numBtn}
-                    aria-current={i === idx ? 'page' : undefined}
-                    aria-label={`Page ${i + 1}`}
-                    onClick={() => go(i)}
-                  >
-                    {i + 1}
-                  </button>
-                ))}
-              </div>
-              <button type="button" className={css.pbtn} onClick={() => go(idx + 1)} disabled={idx === total - 1}>
-                Next <Chevron dir="right" />
-              </button>
-            </nav>
-          )}
         </div>
       </div>
     </div>
