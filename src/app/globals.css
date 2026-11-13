@@ -1,0 +1,36 @@
+:root {
+  color-scheme: dark;
+  --ys-accent: #c8141f;
+}
+
+::selection {
+  background: rgba(200, 20, 31, 0.6);
+  color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b0b0d;
+  color: #a6a6a6;
+}
+
+body {
+  font-family: var(--ys-f-body), Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.nojs {
+  margin: 0;
+  padding: 48px 16px;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+{
+  "tagline": "A High School Roleplay Experience",
+  "about": {
+    "eyebrow": "Yankee School RP",
+    "title": "About\nThe Server",
+    "text": "Yankee School RP is a high school–themed roleplay server where you can build your character, create your own story, form alliances, and experience a dynamic school life in a roleplay environment."
+  },
+  "cards": {
+    "general": "Rules for all players",
+    "server": "Server-specific regulations",
+    "event": "Event guidelines & policies",
+    "ticket": "Report or request assistance",
+    "about": "Learn more about YSRP"
+  },
+  "server": {
+    "name": "Yankee School RP",
+    "cfxCode": "m4qz5ld"
+  },
+  "links": {
+    "discord": "https://discord.gg/JZBwnmk3kV",
+    "ticket": "https://discord.com/channels/1522070117490495488/1522124670730637322/1522149064504905801",
+    "tiktok": "",
+    "youtube": ""
+  },
+  "announcements": []
+}

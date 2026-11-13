@@ -1,0 +1,46 @@
+{
+  "intro": {
+    "title": "Yankee School RP",
+    "paragraphs": [
+      "Welcome to Yankee School RP, where school life gets rough.",
+      "Yankee School RP is a FiveM roleplay server centered around Japanese-inspired school life, delinquent culture, street rivalries, and character-driven stories.",
+      "Step into a world where your reputation matters, friendships can become alliances, and every decision can shape your place in the school and the streets.",
+      "Inspired by the atmosphere of Tokyo Revengers, WIND BREAKER, and HIGH&LOW, Yankee School RP combines school-life roleplay with the intensity of delinquent crews, rival schools, underground hangouts, and street conflicts."
+    ]
+  },
+  "story": {
+    "title": "Your School. Your Crew. Your Story.",
+    "paragraphs": [
+      "Start as an ordinary student and build your own reputation. Make friends, find rivals, join or create a crew, represent your school, and carve out your own path.",
+      "Whether you want to be a troublemaker, respected fighter, loyal friend, student leader, teacher, gang member, or simply someone trying to survive school life, there's a place for you."
+    ]
+  },
+  "ranks": {
+    "title": "Rise Through the Ranks",
+    "text": "In Yankee School RP, respect isn't given, it's earned. Build your name through your actions. Stand up for your friends, represent your crew, challenge your rivals, or stay out of trouble and focus on school. The choices you make create the story."
+  },
+  "strongest": {
+    "title": "Will you become the strongest student?",
+    "items": [
+      "The leader of the streets?",
+      "A legend remembered by everyone?",
+      "Or will you simply become another name lost in the halls?",
+      "Your story starts here."
+    ]
+  },
+  "expect": {
+    "title": "What You Can Expect",
+    "items": [
+      { "icon": "users", "text": "Immersive school-focused roleplay" },
+      { "icon": "swords", "text": "Delinquent crews and rival factions" },
+      { "icon": "school", "text": "School rivalries and territory conflicts" },
+      { "icon": "star", "text": "Character-driven fights and rivalries" },
+      { "icon": "group", "text": "Friendships, alliances, betrayals, and drama" },
+      { "icon": "torii", "text": "Street culture and late-night hangouts" },
+      { "icon": "car", "text": "Serious and casual RP opportunities" },
+      { "icon": "gear", "text": "Player-created stories and long-term character development" },
+      { "icon": "sakura", "text": "A Japanese-inspired urban atmosphere" },
+      { "icon": "trophy", "text": "Reputation, respect, and crew progression" }
+    ]
+  }
+}
